@@ -1,0 +1,23 @@
+[
+  {
+    "sensor_id": "temp-1",
+    "type": "temperature",
+    "unit": "C",
+    "min_value": 20.0,
+    "max_value": 80.0
+  },
+  {
+    "sensor_id": "vib-1",
+    "type": "vibration",
+    "unit": "Hz",
+    "min_value": 0.0,
+    "max_value": 12.0
+  },
+  {
+    "sensor_id": "press-1",
+    "type": "pressure",
+    "unit": "psi",
+    "min_value": 100.0,
+    "max_value": 300.0
+  }
+]
