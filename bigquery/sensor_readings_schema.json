@@ -1,0 +1,7 @@
+[
+  {"name": "sensor_id", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "timestamp", "type": "TIMESTAMP", "mode": "REQUIRED"},
+  {"name": "type", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "value", "type": "FLOAT", "mode": "NULLABLE"},
+  {"name": "unit", "type": "STRING", "mode": "NULLABLE"}
+]

@@ -1,0 +1,13 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      - functions
+      - deploy
+      - temp-anomaly-detector
+      - --gen2
+      - --region=us-central1
+      - --runtime=python311
+      - --trigger-topic=iot-sensor
+      - --entry-point=pubsub_trigger
+      - --source=cloud/anomaly_detector
+      - --project=iot-sensor-security

@@ -1,0 +1,9 @@
+{
+  "sensor_id": "temp-001",
+  "sensor_type": "temperature",
+  "unit": "°C",
+  "min_value": 20.0,
+  "max_value": 90.0,
+  "interval_seconds": 5,
+  "topic": "iot-sensor"
+}

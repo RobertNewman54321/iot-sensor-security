@@ -1,2 +1,12 @@
-# iot-sensor-security
-IoT/OT sensor security project on Google Cloud — simulating industrial sensors, streaming data into Pub/Sub, anomaly detection with Cloud Functions, optional ML with Vertex AI, and dashboards in Looker Studio.
+# IoT Sensor Security (Level 1 MVP)
+Google Cloud prototype that simulates IoT sensor data and detects anomalies in real time.
+
+## Architecture
+Laptop (Python Simulator) → Pub/Sub → Cloud Function → BigQuery → Looker Studio → Email Alerts
+
+## Quickstart
+```bash
+bash scripts/setup_env.sh
+bash scripts/create_resources.sh
+python sensors/simulator.py
+bash scripts/deploy_cloud_function.sh
